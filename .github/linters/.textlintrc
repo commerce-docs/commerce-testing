@@ -3,9 +3,6 @@
     "comments": true
   },
   "rules": {
-    "spellchecker": {
-      "skipWords": ["Magento"]
-    },
     "terminology": true
   }
 }
