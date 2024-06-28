@@ -3,7 +3,7 @@
     "comments": true
   },
   "rules": {
-    "en-spell": true,
+    "textlint-rule-en-spell": true,
     "terminology": true
   }
 }
