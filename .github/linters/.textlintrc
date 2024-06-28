@@ -3,12 +3,6 @@
     "comments": true
   },
   "rules": {
-    "terminology": true,
-    "spelling": {
-            "language": "en",
-            "skipPatterns": [],
-            "wordDefinitionRegexp": "/[\\w']+/g",
-            "suggestCorrections": true
-    }
+    "terminology": true
   }
 }
