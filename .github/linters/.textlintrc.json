@@ -4,6 +4,7 @@
   },
   "rules": {
     "terminology": true,
-    "spellchecker": true
+    "spellchecker": true,
+    "no-todo": true
   }
 }
