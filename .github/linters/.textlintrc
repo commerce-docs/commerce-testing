@@ -3,6 +3,7 @@
     "comments": true
   },
   "rules": {
+    "en-spell": true,
     "terminology": true
   }
 }
