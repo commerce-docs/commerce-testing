@@ -45,7 +45,8 @@ jobs:
           # Full git history is needed to get a proper list of changed files
           # within `super-linter`
           fetch-depth: 0
-      - run: cat ".github/super-linter.env" >> "$GITHUB_ENV"
+      - name: Load super-linter configuration
+        run: cat .github/super-linter.env >> "$GITHUB_ENV"
 
       ################################
       # Run Linters against code base #
@@ -55,12 +56,10 @@ jobs:
         # Use full version number to avoid cases when a next
         # released version is buggy
         # About slim image: https://github.com/github/super-linter#slim-image
-        uses: super-linter/super-linter/slim@v5.7.2
+        uses: super-linter/super-linter@v6.6.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BRANCH: main
-          VALIDATE_ALL_CODEBASE: false
-          VALIDATE_GITHUB_ACTIONS: true
 
       - name: Setup Node
         uses: actions/setup-node@v3

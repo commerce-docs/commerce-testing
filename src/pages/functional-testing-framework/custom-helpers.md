@@ -95,7 +95,7 @@ The following details are important about the above file:
 2. The class must `extends Helper` and have the corresponding `use` statement to match.
 3. You may access the WebDriver object via `$this->getModule('\Magento\FunctionalTestingFramework\Module\MagentoWebDriver')`.
 4. You may implement multiple related methods within the same class.
-5. Specify the correct function argument types to match the type of values you want to pass in. In this case, we specified `string $context, int $startX, int $startY, int $endX, int $endY`. In the XML we will match these types.
+5. Specify the correct function parameter types to match the type of values you want to pass in. In this case, we specified `string $context, int $startX, int $startY, int $endX, int $endY`. In the XML we will match these types.
 
 You should follow the same patterns in any custom helpers that you write yourself, but you may implement any logic or iteration that you need to solve for your use case.
 
