@@ -1,11 +1,8 @@
 {
-  "rules": {
-    "terminology": true,
-    "spellchecker": true,
-    "no-todo": true,
-    "common-misspellings": true
-  },
   "filters": {
     "comments": true
+  },
+  "rules": {
+    "terminology": true
   }
 }
