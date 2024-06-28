@@ -3,6 +3,7 @@
     "comments": true
   },
   "rules": {
+    "spellchecker": true,
     "terminology": true
   }
 }
