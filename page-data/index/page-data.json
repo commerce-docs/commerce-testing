@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-index-md",
-    "path": "/",
-    "result": {"pageContext":{"frontmatter":{"title":"Overview - Adobe Analytics","description":"This is the overview page of Adobe Analytics","contributors":["https://github.com/icaraps"]}}},
-    "staticQueryHashes": ["915530536"]}
+{"componentChunkName":"component---src-pages-index-md","path":"/","result":{"pageContext":{"frontmatter":{"title":"Commerce Testing","description":"Review resources for testing Adobe Commerce and Magento Open Source code.","keywords":["Tools"]}}},"staticQueryHashes":["1440646406","1814815295","3508090095"]}
