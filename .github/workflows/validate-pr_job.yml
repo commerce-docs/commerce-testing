@@ -8,7 +8,7 @@ permissions:
   statuses: write
 
 jobs:
-  lint:
+  lint-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,9 +25,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BRANCH: main
 
-  test:
+  remark-test:
     runs-on: ubuntu-latest
-    needs: lint
+    needs: lint-test
     steps:
       - uses: actions/checkout@v4
       - name: Use Setup Node and Install Dependencies Action
@@ -39,9 +39,9 @@ jobs:
       - name: Check links
         run: yarn test
 
-  build:
+  build-test:
     runs-on: ubuntu-latest
-    needs: test
+    needs: remark-test
     steps:
       - uses: actions/checkout@v4
       - name: Use Setup Node and Install Dependencies Action
