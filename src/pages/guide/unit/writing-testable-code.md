@@ -289,9 +289,9 @@ Almost as a side effect, those classes are very easy to test.
 *  *Growing Object Oriented Software Guided by Tests* by Steve Freeman and Nat Pryce
 
 [single-responsibility-principle]: https://en.wikipedia.org/wiki/Single_responsibility_principle
-[generated]: https://developer.adobe.com/commerce/php/development/components/code-generation/
+[generated]: https://developer.adobe.com/commerce/php/development/components/code-generation
 [integration-tests]: ../integration/index.md
-[constructor-injection]: https://developer.adobe.com/commerce/php/development/components/dependency-injection/
+[constructor-injection]: https://developer.adobe.com/commerce/php/development/components/dependency-injection
 [IoInterface]: https://github.com/magento/magento2/blob/2.4/lib/internal/Magento/Framework/Filesystem/Io/IoInterface.php
 [DateTimeInterface]: https://www.php.net/manual/en/refs.calendar.php
 [RemoteAddress]: https://github.com/magento/magento2/blob/2.4/lib/internal/Magento/Framework/HTTP/PhpEnvironment/RemoteAddress.php

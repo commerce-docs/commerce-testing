@@ -27,7 +27,7 @@ For all of the static configuration installations below involving the PhpStorm P
 
 <InlineAlert variant="info" slots="text" />
 
-JavaScript code analysis is done through [ESLint](https://developer.adobe.com/commerce/php/coding-standards/js/#eslint-code-analysis).
+JavaScript code analysis is done through [ESLint](https://developer.adobe.com/commerce/php/coding-standards/js).
 The ESLint rules are set up in `magento-coding-standard`, which is installed on Magento2 via `composer` since it's a development dependency.
 
 1. Go to PhpStorm preferences > Languages & Frameworks > JavaScript > Code Quality Tools > ESLint.
