@@ -396,4 +396,3 @@ Refer to the following resources for more information on data fixtures.
 - [PHP Attributes](attributes/index.md) - Complete attributes reference
 - [DataFixture Attribute](attributes/data-fixture.md) - Detailed DataFixture documentation
 - [@magentoDataFixture Annotation](annotations/magento-data-fixture.md) - Legacy annotation documentation
-
