@@ -8,6 +8,7 @@
 
 # npm
 node_modules
+package-lock.json
 
 # gatsby files
 .env
@@ -33,3 +34,4 @@ github_conf
 
 # local dev
 tmp
+linter-report.txt
