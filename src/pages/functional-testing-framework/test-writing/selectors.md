@@ -125,17 +125,17 @@ This XPath is fragile. It would fail if the attribute was `attribute="foo bar"`.
 
 Hardcoded values are by definition not flexible. A hardcoded index may change if new code is introduced. Instead, parameterize the selector.
 
-GOOD: .foo:nth-of-type({{index}})
+GOOD: `.foo:nth-of-type({{index}})`
 
-BAD: .foo:nth-of-type(1)
+BAD: `.foo:nth-of-type(1)`
 
 GOOD: `button[contains(@id, "foo")][{{index}}]`
 
 BAD: `button[contains(@id, "foo")][1]`
 
-GOOD: #actions__{{index}}__aggregator
+GOOD: `#actions__{{index}}__aggregator`
 
-BAD: #actions__1__aggregator
+BAD: `#actions__1__aggregator`
 
 #### CSS and XPath selectors MUST NOT reference the @data-bind attribute
 
