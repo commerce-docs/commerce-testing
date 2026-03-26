@@ -193,11 +193,11 @@ Accepts the current popup visible on the page.
 
 See [acceptPopup docs on codeception.com](https://codeception.com/docs/modules/WebDriver#acceptPopup).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -212,12 +212,12 @@ Opens the page by the URL relative to the one set in the `MAGENTO_BASE_URL` conf
 
 See [amOnPage docs on codeception.com](https://codeception.com/docs/modules/WebDriver#amOnPage).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| A path to the page relative to the `MAGENTO_BASE_URL`.
-`stepKey`|string|required|A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| A path to the page relative to the `MAGENTO_BASE_URL`. |
+| `stepKey`|string|required|A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -232,12 +232,12 @@ Takes the base URL and changes the subdomain.
 
 See [amOnSubdomain docs on codeception.com](https://codeception.com/docs/modules/WebDriver#amOnSubdomain).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| The name of the subdomain.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| The name of the subdomain. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -256,12 +256,12 @@ Opens a page by the absolute URL.
 
 See [amOnUrl docs on codeception.com](https://codeception.com/docs/modules/WebDriver#amOnUrl).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| The absolute URL to be used in subsequent steps.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| The absolute URL to be used in subsequent steps. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -274,13 +274,13 @@ Attribute|Type|Use|Description
 
 See [appendField docs on codeception.com](https://codeception.com/docs/modules/WebDriver#appendField).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector used to identify the form field.
-`userInput`|string|optional| Value to append to the form field.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector used to identify the form field. |
+| `userInput`|string|optional| Value to append to the form field. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -293,13 +293,13 @@ Attribute|Type|Use|Description
 
 See [attachFile docs on codeception.com](https://codeception.com/docs/modules/WebDriver#attachFile).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional|The selector identifying the corresponding HTML element (`<input type="file">`).
-`userInput`|string|optional|The name of attaching file. The file must be placed in the `tests/_data` directory.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional|The selector identifying the corresponding HTML element (`<input type="file">`). |
+| `userInput`|string|optional|The name of attaching file. The file must be placed in the `tests/_data` directory. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -312,11 +312,11 @@ Attribute|Type|Use|Description
 
 See [cancelPopup docs on codeception.com](https://codeception.com/docs/modules/WebDriver#cancelPopup).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -329,12 +329,12 @@ Attribute|Type|Use|Description
 
 See [checkOption docs on codeception.com](https://codeception.com/docs/modules/WebDriver#checkOption).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -348,12 +348,12 @@ Attribute|Type|Use|Description
 Clears a text input field.
 Equivalent to using [`<fillField>`](#fillfield) with an empty string.
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|required| The selector identifying the corresponding HTML element to be cleared.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|required| The selector identifying the corresponding HTML element to be cleared. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -366,14 +366,14 @@ Attribute|Type|Use|Description
 
 See [click docs on codeception.com](https://codeception.com/docs/modules/WebDriver#click).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Selects an element as a key-value array. See [strict locator](https://codeception.com/docs/modules/WebDriver#locating-elements).
-`userInput`|string|optional| Data to be sent with the click.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Selects an element as a key-value array. See [strict locator](https://codeception.com/docs/modules/WebDriver#locating-elements). |
+| `userInput`|string|optional| Data to be sent with the click. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -391,15 +391,15 @@ Attribute|Type|Use|Description
 
 See [clickWithLeftButton docs on codeception.com](https://codeception.com/docs/modules/WebDriver#clickWithLeftButton).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Selects an element as a key-value array; See [strict locator].
-`x`|string|optional| The x-axis value in pixels for the click location.
-`y`|string|optional| The y-axis value in pixels for the click location.
-`stepKey`|string|required|A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Selects an element as a key-value array; See [strict locator]. |
+| `x`|string|optional| The x-axis value in pixels for the click location. |
+| `y`|string|optional| The y-axis value in pixels for the click location. |
+| `stepKey`|string|required|A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -422,15 +422,15 @@ Attribute|Type|Use|Description
 
 See [clickWithRightButton docs on codeception.com](https://codeception.com/docs/modules/WebDriver#clickWithRightButton).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Selects an element as a key-value array; See [strict locator].
-`x`|string|optional| The x-axis value in pixels for the click location.
-`y`|string|optional| The y-axis value in pixels for the click location.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Selects an element as a key-value array; See [strict locator]. |
+| `x`|string|optional| The x-axis value in pixels for the click location. |
+| `y`|string|optional| The y-axis value in pixels for the click location. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -453,11 +453,11 @@ Attribute|Type|Use|Description
 
 Remove from the DOM all elements with the CSS classes `.modal-popup` or `.modals-overlay`.
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -470,11 +470,11 @@ Attribute|Type|Use|Description
 
 See [closeTab docs on codeception.com](https://codeception.com/docs/modules/WebDriver#closeTab).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -489,12 +489,12 @@ Allows input of a string as a PHP code comment.
 This tag is not executed.
 It is intended to aid documentation and clarity of tests.
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|required| PHP comment that will be written in generated test file.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|required| PHP comment that will be written in generated test file. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 ```xml
 <!-- Open the specified page and print a comment "I am on the login page" in the log during test execution. -->
@@ -506,14 +506,14 @@ Attribute|Type|Use|Description
 
 Conditionally clicks on an element if, and only if, another element is visible or not.
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the HTML element to be clicked.
-`dependentSelector`|string|optional| The selector of the HTML element whose visibility is checked for to activate the click.
-`visible`|boolean|optional| Determines whether the conditional click is activated by the element being visible or hidden.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the HTML element to be clicked. |
+| `dependentSelector`|string|optional| The selector of the HTML element whose visibility is checked for to activate the click. |
+| `visible`|boolean|optional| Determines whether the conditional click is activated by the element being visible or hidden. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -527,13 +527,13 @@ Attribute|Type|Use|Description
 Creates an entity (for example, a category or product).
 To create an entity, the Functional Testing Framework makes a `POST` request to the Adobe Commerce or Magento Open Source API according to the [data](../data.md) and [metadata](../metadata.md) of the entity to be created.
 
-Attribute|Type|Use|Description
----|---|---|---
-`entity`|string|required| Type of entity to be created.
-`storeCode`|string|optional| ID of the store within which the data is created.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `entity`|string|required| Type of entity to be created. |
+| `storeCode`|string|optional| ID of the store within which the data is created. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 It can optionally contain one or more `requiredEntity` child elements.
 
@@ -560,21 +560,21 @@ For example, a complex Product object may contain within it a pointer (an ID) to
 </createData>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`createDataKey`|string|required| Name of the required entity.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `createDataKey`|string|required| Name of the required entity. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### field
 
 Persists a custom field (as a part of the entity) overriding the matching declaration in static data.
 This field is replaced at a top level only (nested values such as custom attributes or extension attributes are not replaced).
 
-Attribute|Type|Use|Description
----|---|---|---
-`key`|string|required| Name of the field to be replaced or added.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `key`|string|required| Name of the field to be replaced or added. |
 
 ##### Example
 
@@ -590,14 +590,14 @@ To overwrite the `name` field in a particular product, specify a field element d
 
 Delete an entity that was previously created.
 
-Attribute|Type|Use|Description
----|---|---|---
-`createDataKey`|string|optional| Reference to `stepKey` of the `createData` action .
-`url`|string|optional| REST API route to send a DELETE request.
-`storeCode`|string|optional| ID of the store from which to delete the data.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `createDataKey`|string|optional| Reference to `stepKey` of the `createData` action . |
+| `url`|string|optional| REST API route to send a DELETE request. |
+| `storeCode`|string|optional| ID of the store from which to delete the data. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -628,14 +628,14 @@ Delete an entity using [REST API](https://developer.adobe.com/commerce/webapi/re
 
 See [the codeception.com documentation for more information about this action](https://codeception.com/docs/modules/WebDriver#dontSee).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Value for the form field.
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors to evaluate.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Value for the form field. |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors to evaluate. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -648,12 +648,12 @@ Attribute|Type|Use|Description
 
 See [dontSeeCheckboxIsChecked docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeCheckboxIsChecked).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -666,13 +666,13 @@ Attribute|Type|Use|Description
 
 See [dontSeeCookie docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeCookie).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Value for the form field.
-`parameterArray`|string|optional| Parameters to search for within the cookie.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Value for the form field. |
+| `parameterArray`|string|optional| Parameters to search for within the cookie. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -690,12 +690,12 @@ Attribute|Type|Use|Description
 
 See [dontSeeCurrentUrlEquals docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeCurrentUrlEquals).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| URL to be compared with the current URL.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| URL to be compared with the current URL. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -708,12 +708,12 @@ Attribute|Type|Use|Description
 
 See [dontSeeCurrentUrlMatches docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeCurrentUrlMatches)
 
-Attribute|Type|Use|Description
----|---|---|---
-`regex`|string|optional| Regular expression against the current URI.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `regex`|string|optional| Regular expression against the current URI. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -726,13 +726,13 @@ Attribute|Type|Use|Description
 
 See [dontSeeElement docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeElement).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`parameterArray`|string|optional| Parameters to search for within the selected element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `parameterArray`|string|optional| Parameters to search for within the selected element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -745,13 +745,13 @@ Attribute|Type|Use|Description
 
 See [dontSeeElementInDOM docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeElementInDOM).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`parameterArray`|string|optional| Array of parameters to search for within the selector.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `parameterArray`|string|optional| Array of parameters to search for within the selector. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -764,12 +764,12 @@ Attribute|Type|Use|Description
 
 See [dontSeeInCurrentUrl docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeInCurrentUrl).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| String to search for within the current URL.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| String to search for within the current URL. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -782,14 +782,14 @@ Attribute|Type|Use|Description
 
 See [dontSeeInField docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeInField).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors to be searched.
-`userInput`|string|optional| Value for the form field.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors to be searched. |
+| `userInput`|string|optional| Value for the form field. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -802,13 +802,13 @@ Attribute|Type|Use|Description
 
 See [dontSeeInFormFields docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeInFormFields).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`parameterArray`|string|optional| Array of name/value pairs of the form fields to check against.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `parameterArray`|string|optional| Array of name/value pairs of the form fields to check against. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -821,12 +821,12 @@ Attribute|Type|Use|Description
 
 See [dontSeeInPageSource docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeInPageSource).
 
-Attribute|Type|Use|Description
----|---|---|---
-`html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -839,12 +839,12 @@ Attribute|Type|Use|Description
 
 See [dontSeeInSource docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeInSource).
 
-Attribute|Type|Use|Description
----|---|---|---
-`html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -859,12 +859,12 @@ You must encode the `html` using a tool such as [CyberChef](https://gchq.github.
 
 See [dontSeeInTitle docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeInTitle).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Value to be located in the page title.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Value to be located in the page title. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -877,11 +877,11 @@ Attribute|Type|Use|Description
 
 Ensure that the current page does not have JavaScript errors.
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -894,13 +894,13 @@ Attribute|Type|Use|Description
 
 See [dontSeeLink docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeLink).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Text of the link field to search for.
-`url`|string|optional| Value of the href attribute to search for.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Text of the link field to search for. |
+| `url`|string|optional| Value of the href attribute to search for. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -918,13 +918,13 @@ Attribute|Type|Use|Description
 
 See [dontSeeOptionIsSelected docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dontSeeOptionIsSelected).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding select element.
-`userInput`|string|optional| Name of the option to look for.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding select element. |
+| `userInput`|string|optional| Name of the option to look for. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -937,12 +937,12 @@ Attribute|Type|Use|Description
 
 See [doubleClick docs on codeception.com](https://codeception.com/docs/modules/WebDriver#doubleClick).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -955,15 +955,15 @@ Attribute|Type|Use|Description
 
 See [dragAndDrop docs on codeception.com](https://codeception.com/docs/modules/WebDriver#dragAndDrop).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector1`|string|optional|A selector for the HTML element to drag.
-`selector2`|string|optional|A selector for the HTML element to drop onto.
-`x`|int|optional| X offset applied to drag-and-drop destination.
-`y`|int|optional| Y offset applied to drag-and-drop destination.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector1`|string|optional|A selector for the HTML element to drag. |
+| `selector2`|string|optional|A selector for the HTML element to drop onto. |
+| `x`|int|optional| X offset applied to drag-and-drop destination. |
+| `y`|int|optional| Y offset applied to drag-and-drop destination. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -981,13 +981,13 @@ Attribute|Type|Use|Description
 
 See [rapidClick docs on codeception.com](https://codeception.com/docs/modules/WebDriver#rapidClick).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional|A selector for the HTML element to rapid click.
-`count`|string|required|Click count.
-`stepKey`|string|required|A unique identifier of the action.
-`before`|string|optional|`stepKey` of action that must be executed next.
-`after`|string|optional|`stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional|A selector for the HTML element to rapid click. |
+| `count`|string|required|Click count. |
+| `stepKey`|string|required|A unique identifier of the action. |
+| `before`|string|optional|`stepKey` of action that must be executed next. |
+| `after`|string|optional|`stepKey` of preceding action. |
 
 #### Examples
 
@@ -1000,12 +1000,12 @@ Attribute|Type|Use|Description
 
 See [executeJS docs on codeception.com](https://codeception.com/docs/modules/WebDriver#executeJS).
 
-Attribute|Type|Use|Description
----|---|---|---
-`function`|string|optional| JavaScript to be executed.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `function`|string|optional| JavaScript to be executed. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1021,14 +1021,14 @@ To access this value you would use `{$returnTime}` in later actions.
 
 See [fillField docs on codeception.com](https://codeception.com/docs/modules/WebDriver#fillField).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of name/value pairs with which to populate the form.
-`userInput`|string|optional| Value for the form field.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of name/value pairs with which to populate the form. |
+| `userInput`|string|optional| Value for the form field. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1042,27 +1042,27 @@ Attribute|Type|Use|Description
 Format input to specified currency according to the locale specified. Returns formatted string for test use.
 Use NumberFormatter::formatCurrency(), see https://www.php.net/manual/en/numberformatter.formatcurrency.php
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|required| Number to be formatted.
-`locale`|string|required| The locale to format to.
-`currency`|string|required| The 3-letter ISO 4217 currency code indicating the currency to use.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|required| Number to be formatted. |
+| `locale`|string|required| The locale to format to. |
+| `currency`|string|required| The 3-letter ISO 4217 currency code indicating the currency to use. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 ### generateDate
 
 Generates a date for use in `{$stepKey}` format in other test actions.
 
-Attribute|Type|Use|Description
----|---|---|---
-`date`|string|required| Date input to parse. Uses the same functionality as the PHP `strtotime()` function.
-`format`|string|required| Format in which to save the given date. Uses the same formatting as the PHP `date()` function.
-`timezone`|string|optional| Timezone to use when generating date, defaults to `America/Los_Angeles`.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `date`|string|required| Date input to parse. Uses the same functionality as the PHP `strtotime()` function. |
+| `format`|string|required| Format in which to save the given date. Uses the same formatting as the PHP `date()` function. |
+| `timezone`|string|optional| Timezone to use when generating date, defaults to `America/Los_Angeles`. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1076,14 +1076,14 @@ To access this value, use `{$generateDate}` in later actions. -->
 
 Gets an entity (for example, a category), from the Adobe Commerce or Magento Open Source API according to the data and metadata of the entity type that is requested.
 
-Attribute|Type|Use|Description
----|---|---|---
-`storeCode`|string|optional| Identifier of the store from which to get the data.
-`index`|integer|optional| The index in the returned data array.
-`entity`|string|required| Name of the entity from which to get the data.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `storeCode`|string|optional| Identifier of the store from which to get the data. |
+| `index`|integer|optional| The index in the returned data array. |
+| `entity`|string|required| Name of the entity from which to get the data. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1105,11 +1105,11 @@ The one-time password (OTP) is returned and accessible through the stepkey.
 
 The Functional Testing Framework use TOTP from [Spomky-Labs/otphp](https://github.com/Spomky-Labs/otphp), if you want to learn more about this action.
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1121,13 +1121,13 @@ Attribute|Type|Use|Description
 
 See [grabAttributeFrom docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabAttributeFrom).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| Name of tag attribute to grab.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| Name of tag attribute to grab. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1141,13 +1141,13 @@ To access this value, use `{$grabAttributeFromInput}` in later actions. -->
 
 See [grabCookie docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabCookie).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of the cookie to grab.
-`parameterArray`|string|optional| Array of cookie parameters to grab.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of the cookie to grab. |
+| `parameterArray`|string|optional| Array of cookie parameters to grab. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1167,13 +1167,13 @@ To access this value, use `{$grabCookieExampleDomain}` in later actions. -->
 
 See [grabCookieAttributes docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabCookieAttributes).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of the cookie to grab.
-`parameterArray`|string|optional| Array of cookie parameters to grab.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of the cookie to grab. |
+| `parameterArray`|string|optional| Array of cookie parameters to grab. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1195,12 +1195,12 @@ To access expiry date, use  `{$grabCookieExampleDomain.expiry}` in later actions
 
 See [grabFromCurrentUrl docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabFromCurrentUrl)..
 
-Attribute|Type|Use|Description
----|---|---|---
-`regex`|string|optional| Regular expression against the current URI.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `regex`|string|optional| Regular expression against the current URI. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1214,13 +1214,13 @@ To access this value, use `{$grabFromCurrentUrl}` in later actions. -->
 
 See [grabMultiple docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabMultiple)..
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| Name of the tag attribute to grab.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| Name of the tag attribute to grab. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1240,11 +1240,11 @@ To access this value, use `{$grabAllLinks}` in later actions. -->
 
 See [grabPageSource docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabPageSource).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1258,12 +1258,12 @@ To access this value, use `{$grabPageSource}` in later actions. -->
 
 See [grabTextFrom docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabTextFrom).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1277,13 +1277,13 @@ To access this value, use `{$grabTitle}` in later actions. -->
 
 See [grabValueFrom docs on codeception.com](https://codeception.com/docs/modules/WebDriver#grabValueFrom).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors for the form fields to be selected.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors for the form fields to be selected. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1297,10 +1297,10 @@ To access this value, use `{$grabInputName}` in later actions. -->
 
 Specifies what value is returned by an action group. The value can be then accessed in later steps using the action group stepKey. See [Action groups returning a value](./action-groups.md#return-a-value) for usage information.
 
-Attribute|Type|Use|Description
----|---|---|---
-`value`|string|required| value returned by action group.
-`stepKey`|string|required| A unique identifier of the action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `value`|string|required| value returned by action group. |
+| `stepKey`|string|required| A unique identifier of the action. |
 
 #### Example
 
@@ -1313,12 +1313,12 @@ Attribute|Type|Use|Description
 
 See [loadSessionSnapshot docs on codeception.com](https://codeception.com/docs/modules/WebDriver#loadSessionSnapshot).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of saved cookie.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of saved cookie. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1332,14 +1332,14 @@ To access this value, use the `loadSessionSnapshot` action -->
 
 Specifies a CLI command to execute in a Adobe Commerce or Magento Open Source.
 
-Attribute|Type|Use|Description
----|---|---|---
-`command`|string |optional| CLI command to be executed in Adobe Commerce or Magento Open Source.
-`arguments`|string |optional| Unescaped arguments to be passed in with the CLI command.
-`timeout`|string|optional| Number of seconds CLI command can run without outputting anything.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `command`|string |optional| CLI command to be executed in Adobe Commerce or Magento Open Source. |
+| `arguments`|string |optional| Unescaped arguments to be passed in with the CLI command. |
+| `timeout`|string|optional| Number of seconds CLI command can run without outputting anything. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1352,14 +1352,14 @@ Attribute|Type|Use|Description
 
 Used to execute Adobe Commerce or Magento Open Source Cron jobs. Groups may be provided optionally. Internal mechanism of `<magentoCron>` ensures that Cron Job of single group is ran with 60 seconds interval.
 
-Attribute|Type|Use|Description
----|---|---|---
-`groups`|string |optional| Run only specified groups of Cron Jobs
-`arguments`|string |optional| Unescaped arguments to be passed in with the CLI command.
-`timeout`|string|optional| Number of seconds CLI command can run without outputting anything.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `groups`|string |optional| Run only specified groups of Cron Jobs |
+| `arguments`|string |optional| Unescaped arguments to be passed in with the CLI command. |
+| `timeout`|string|optional| Number of seconds CLI command can run without outputting anything. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1375,12 +1375,12 @@ Attribute|Type|Use|Description
 
 See [makeScreenshot docs on codeception.com](https://codeception.com/docs/modules/WebDriver#makeScreenshot).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of PNG file to be created.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of PNG file to be created. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 Note that the makeScreenshot action does not automatically add the screenshot to Allure reports.
 
@@ -1399,11 +1399,11 @@ This action does not add a screenshot to the Allure [report](../reporting.md).
 
 See [maximizeWindow docs on codeception.com](https://codeception.com/docs/modules/WebDriver#maximizeWindow).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1416,11 +1416,11 @@ Attribute|Type|Use|Description
 
 See [moveBack docs on codeception.com](https://codeception.com/docs/modules/WebDriver#moveBack).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1433,11 +1433,11 @@ Attribute|Type|Use|Description
 
 See [moveForward docs on codeception.com](https://codeception.com/docs/modules/WebDriver#moveForward)..
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 ```xml
 <!-- Move forward one page in history. -->
@@ -1448,15 +1448,15 @@ Attribute|Type|Use|Description
 
 See [moveMouseOver docs on codeception.com](https://codeception.com/docs/modules/WebDriver#moveMouseOver).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors.
-`x`|string|optional| Number of pixels on the x-axis to offset from the selected element.
-`y`|string|optional| Number of pixels on the y-axis to offset from the selected element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors. |
+| `x`|string|optional| Number of pixels on the x-axis to offset from the selected element. |
+| `y`|string|optional| Number of pixels on the y-axis to offset from the selected element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1472,31 +1472,31 @@ Attribute|Type|Use|Description
 
 ### mSetLocale
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Value of the expected locale.
-`locale`|string|optional| Number of the locale value to be set.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Value of the expected locale. |
+| `locale`|string|optional| Number of the locale value to be set. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 ### mResetLocale
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 ### openNewTab
 
 See [openNewTab docs on codeception.com](https://codeception.com/docs/modules/WebDriver#openNewTab).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1509,22 +1509,22 @@ Attribute|Type|Use|Description
 
 Parses float number with thousands separator.
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Float value to be parsed.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Float value to be parsed. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 ### pause
 
 See usage of `<pause` in [interactive-pause](../interactive-pause.md) and [pause docs on codeception.com](https://codeception.com/docs/Debugging#Pause).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1537,14 +1537,14 @@ Attribute|Type|Use|Description
 
 See [pressKey docs on codeception.com](https://codeception.com/docs/modules/WebDriver#pressKey).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| Key to be pressed.
-`parameterArray`|string|optional| Array of keys to be pressed and functions to be run for the action.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| Key to be pressed. |
+| `parameterArray`|string|optional| Array of keys to be pressed and functions to be run for the action. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1565,11 +1565,11 @@ To press more than one key at a time, wrap the keys in secondary `[]`.
 
 See [reloadPage docs on codeception.com](https://codeception.com/docs/modules/WebDriver#reloadPage).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1582,9 +1582,9 @@ Attribute|Type|Use|Description
 
 Removes action by its `stepKey`.
 
-Attribute|Type|Use|Description
----|---|---|---
-`keyForRemoval`|string|required| Set `stepKey` of the action you want to remove.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `keyForRemoval`|string|required| Set `stepKey` of the action you want to remove. |
 
 #### Example
 
@@ -1597,13 +1597,13 @@ Attribute|Type|Use|Description
 
 See [resetCookie docs on codeception.com](https://codeception.com/docs/modules/WebDriver#resetCookie).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of the cookie to be reset.
-`parameterArray`|string|optional| Array of key/values to get reset within the cookie.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of the cookie to be reset. |
+| `parameterArray`|string|optional| Array of key/values to get reset within the cookie. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1621,13 +1621,13 @@ Attribute|Type|Use|Description
 
 See [resizeWindow docs on codeception.com](https://codeception.com/docs/modules/WebDriver#resizeWindow).
 
-Attribute|Type|Use|Description
----|---|---|---
-`width`|string|optional| The new width of the window in pixels.
-`height`|string|optional| The new height of the window in pixels.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `width`|string|optional| The new width of the window in pixels. |
+| `height`|string|optional| The new height of the window in pixels. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1640,12 +1640,12 @@ Attribute|Type|Use|Description
 
 See [saveSessionSnapshot docs on codeception.com](https://codeception.com/docs/modules/WebDriver#saveSessionSnapshot).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of snapshot where cookies are to be saved.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of snapshot where cookies are to be saved. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1658,15 +1658,15 @@ Attribute|Type|Use|Description
 
 See [scrollTo docs on codeception.com](https://codeception.com/docs/modules/WebDriver#scrollTo).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors to return.
-`x`|string|optional| x offset of the element to be scrolled to.
-`y`|string|optional| y offset of the element to be scrolled to.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors to return. |
+| `x`|string|optional| x offset of the element to be scrolled to. |
+| `y`|string|optional| y offset of the element to be scrolled to. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1684,11 +1684,11 @@ Attribute|Type|Use|Description
 
 A convenience function that executes `window.scrollTo(0,0)` as JavaScript, thus returning to the top of the page.
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1702,14 +1702,14 @@ Attribute|Type|Use|Description
 Search for and select options from a multi-select drop-down menu.
 For example, the drop-down menu you use to assign Products to Categories.
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|required|The selector of a multi select HTML element (drop-down menu).
-`parameterArray`|array|required| Items to search and select in the selected drop-down menu.
-`requiredAction`|boolean|optional|Clicks **Done** after selections if `true`.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|required|The selector of a multi select HTML element (drop-down menu). |
+| `parameterArray`|array|required| Items to search and select in the selected drop-down menu. |
+| `requiredAction`|boolean|optional|Clicks **Done** after selections if `true`. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1731,14 +1731,14 @@ On this test step the MFTF:
 
 See [see docs on codeception.com](https://codeception.com/docs/modules/WebDriver#see).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| The text to be searched for within the selector.
-`selector`|string|optional| The selector identifying the corresponding HTML element to be searched for.
-`selectorArray`|string|optional| Array of selectors to be searched for.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| The text to be searched for within the selector. |
+| `selector`|string|optional| The selector identifying the corresponding HTML element to be searched for. |
+| `selectorArray`|string|optional| Array of selectors to be searched for. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1751,12 +1751,12 @@ Attribute|Type|Use|Description
 
 See [seeCheckboxIsChecked docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeCheckboxIsChecked).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1769,13 +1769,13 @@ Attribute|Type|Use|Description
 
 See [seeCookie docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeCookie).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Name of the cookie to be searched for.
-`parameterArray`|string|optional| Cookie parameters to be searched for.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Name of the cookie to be searched for. |
+| `parameterArray`|string|optional| Cookie parameters to be searched for. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -1793,12 +1793,12 @@ Attribute|Type|Use|Description
 
 See [seeCurrentUrlEquals docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeCurrentUrlEquals).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| The full URL to be searched for.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| The full URL to be searched for. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1811,12 +1811,12 @@ Attribute|Type|Use|Description
 
 See [seeCurrentUrlMatches docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeCurrentUrlMatches).
 
-Attribute|Type|Use|Description
----|---|---|---
-`regex`|string|optional| Regular expression against the current URI.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `regex`|string|optional| Regular expression against the current URI. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1829,14 +1829,14 @@ Attribute|Type|Use|Description
 
 See [seeElement docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeElement).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors to be searched for.
-`parameterArray`|string|optional| Array of parameters to be searched for within the selector.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors to be searched for. |
+| `parameterArray`|string|optional| Array of parameters to be searched for within the selector. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1849,13 +1849,13 @@ Attribute|Type|Use|Description
 
 See [seeElementInDOM docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeElementInDOM).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`parameterArray`|string|optional| Array of parameters to be searched for within the selected element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `parameterArray`|string|optional| Array of parameters to be searched for within the selected element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1868,12 +1868,12 @@ Attribute|Type|Use|Description
 
 See [seeInCurrentUrl docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInCurrentUrl).
 
-Attribute|Type|Use|Description
----|---|---|---
-`url`|string|optional| String to be searched for within the current URL.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `url`|string|optional| String to be searched for within the current URL. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1886,14 +1886,14 @@ Attribute|Type|Use|Description
 
 See [seeInField docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInField).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`selectorArray`|string|optional| Array of selectors to be searched.
-`userInput`|string|optional| Value to be searched for within the selected form field.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `selectorArray`|string|optional| Array of selectors to be searched. |
+| `userInput`|string|optional| Value to be searched for within the selected form field. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1906,13 +1906,13 @@ Attribute|Type|Use|Description
 
 See [seeInFormFields docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInFormFields).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`parameterArray`|string|optional| Array of parameters to be searched for within the selector.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `parameterArray`|string|optional| Array of parameters to be searched for within the selector. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1925,12 +1925,12 @@ Attribute|Type|Use|Description
 
 See [seeInPageSource docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInPageSource).
 
-Attribute|Type|Use|Description
----|---|---|---
-`html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1945,12 +1945,12 @@ You must encode the `html` using a tool such as [CyberChef](https://gchq.github.
 
 See [seeInPopup docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInPopup).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| String to be searched for within the popup.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| String to be searched for within the popup. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1963,12 +1963,12 @@ Attribute|Type|Use|Description
 
 See [seeInSource docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInSource).
 
-Attribute|Type|Use|Description
----|---|---|---
-`html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `html`|string|required| HTML code to be searched for within the page source. The value must be entity-encoded. See example. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -1983,12 +1983,12 @@ You must encode the `html` using a tool such as [CyberChef](https://gchq.github.
 
 See [seeInTitle docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeInTitle).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| String to be searched for within the current page title.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| String to be searched for within the current page title. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2001,13 +2001,13 @@ Attribute|Type|Use|Description
 
 See [seeLink docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeLink).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| String to be searched for within the text of the link.
-`url`|string|optional| Hyperlink to be searched.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| String to be searched for within the text of the link. |
+| `url`|string|optional| Hyperlink to be searched. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2025,14 +2025,14 @@ Attribute|Type|Use|Description
 
 See [seeNumberOfElements docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeNumberOfElements).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| Number of instances of the specified selector to be found.
-`parameterArray`|string|optional| Array of parameters to be searched for within the selector.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| Number of instances of the specified selector to be found. |
+| `parameterArray`|string|optional| Array of parameters to be searched for within the selector. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -2050,13 +2050,13 @@ Attribute|Type|Use|Description
 
 See [seeOptionIsSelected docs on codeception.com](https://codeception.com/docs/modules/WebDriver#seeOptionIsSelected).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| The name of the option that should be selected.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| The name of the option that should be selected. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2069,14 +2069,14 @@ Attribute|Type|Use|Description
 
 See [selectOption docs on codeception.com](https://codeception.com/docs/modules/WebDriver#selectOption).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| The name of the option to be selected.
-`parameterArray`|string|optional| Array of options to be selected.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| The name of the option to be selected. |
+| `parameterArray`|string|optional| Array of options to be selected. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2089,13 +2089,13 @@ Attribute|Type|Use|Description
 
 Selects all given options in the given drop-down element.
 
-Attribute|Type|Use|Description
----|---|---|---
-`filterSelector`|string|required| The selector for the text filter field.
-`optionSelector`|string|required| The selector used to select the corresponding options based on the filter field.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `filterSelector`|string|required| The selector for the text filter field. |
+| `optionSelector`|string|required| The selector used to select the corresponding options based on the filter field. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 It contains a child element `<array>` where you specify the options that must be selected using an array format like `['opt1', 'opt2']`.
 
@@ -2112,14 +2112,14 @@ It contains a child element `<array>` where you specify the options that must be
 
 See [setCookie docs on codeception.com](https://codeception.com/docs/modules/WebDriver#setCookie).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| The name of the cookie to be set.
-`parameterArray`|string|optional| Array of name/value pairs to be set within the cookie.
-`value`|string|optional| Value to be written to the cookie.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| The name of the cookie to be set. |
+| `parameterArray`|string|optional| Array of name/value pairs to be set within the cookie. |
+| `value`|string|optional| Value to be written to the cookie. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -2132,14 +2132,14 @@ Attribute|Type|Use|Description
 
 See [submitForm docs on codeception.com](https://codeception.com/docs/modules/WebDriver#submitForm).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`parameterArray`|string|optional| An array of form field names and their corresponding values.
-`button`|string|optional| Selector for the form submit button.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `parameterArray`|string|optional| An array of form field names and their corresponding values. |
+| `button`|string|optional| Selector for the form submit button. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -2152,13 +2152,13 @@ Attribute|Type|Use|Description
 
 See [switchToIFrame docs on codeception.com](https://codeception.com/docs/modules/WebDriver#switchToIFrame).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| The name of the IFrame to set focus to.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| The name of the IFrame to set focus to. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2171,12 +2171,12 @@ Attribute|Type|Use|Description
 
 See [switchToNextTab docs on codeception.com](https://codeception.com/docs/modules/WebDriver#switchToNextTab).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Offset of the tab to open, usually a number.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Offset of the tab to open, usually a number. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -2194,12 +2194,12 @@ Attribute|Type|Use|Description
 
 See [switchToPreviousTab docs on codeception.com](https://codeception.com/docs/modules/WebDriver#switchToPreviousTab).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| Number of tabs to go back.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| Number of tabs to go back. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Examples
 
@@ -2217,12 +2217,12 @@ Attribute|Type|Use|Description
 
 See [switchToWindow docs on codeception.com](https://codeception.com/docs/modules/WebDriver#switchToWindow).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| The name of new window to be opened.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| The name of new window to be opened. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2235,12 +2235,12 @@ Attribute|Type|Use|Description
 
 See [typeInPopup docs on codeception.com](https://codeception.com/docs/modules/WebDriver#typeInPopup).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| String to be added to the current popup.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| String to be added to the current popup. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2253,12 +2253,12 @@ Attribute|Type|Use|Description
 
 See [uncheckOption docs on codeception.com](https://codeception.com/docs/modules/WebDriver#uncheckOption).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2271,14 +2271,14 @@ Attribute|Type|Use|Description
 
 See [unselectOption docs on codeception.com](https://codeception.com/docs/modules/WebDriver#unselectOption).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`userInput`|string|optional| The name of the option to deselect.
-`parameterArray`|string|optional| Array of options to be deselected.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `userInput`|string|optional| The name of the option to deselect. |
+| `parameterArray`|string|optional| Array of options to be deselected. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2308,14 +2308,14 @@ Where `AdjustPriceProduct` simply looks like this:
 
 Only the fields that you want to update are set.
 
-Attribute|Type|Use|Description
----|---|---|---
-`storeCode`|string|optional| ID of the store in which to apply the updated data.
-`entity`|string|required| The name of the `updateData` entity being created.
-`createDataKey`|string|required| Key of the data entity to be updated.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `storeCode`|string|optional| ID of the store in which to apply the updated data. |
+| `entity`|string|required| The name of the `updateData` entity being created. |
+| `createDataKey`|string|required| Key of the data entity to be updated. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 This action can optionally contain one or more [requiredEntity](#requiredentity) child elements.
 
@@ -2323,12 +2323,12 @@ This action can optionally contain one or more [requiredEntity](#requiredentity)
 
 See [wait docs on codeception.com](https://codeception.com/docs/modules/WebDriver#wait).
 
-Attribute|Type|Use|Description
----|---|---|---
-`time`|string|optional| The number of seconds to wait.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `time`|string|optional| The number of seconds to wait. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2341,12 +2341,12 @@ Attribute|Type|Use|Description
 
 Wait for all Ajax calls to finish.
 
-Attribute|Type|Use|Description
----|---|---|---
-`time`|string|optional| The number of seconds to wait for Ajax calls to finish.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `time`|string|optional| The number of seconds to wait for Ajax calls to finish. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2359,14 +2359,14 @@ Attribute|Type|Use|Description
 
 See [waitForElementChange docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForElementChange).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the HTML element to be changed.
-`function`|string|optional| The function to be run after the element changes.
-`time`|string|optional| The number of seconds to wait for the change. Default is 30.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the HTML element to be changed. |
+| `function`|string|optional| The function to be run after the element changes. |
+| `time`|string|optional| The number of seconds to wait for the change. Default is 30. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2379,13 +2379,13 @@ Attribute|Type|Use|Description
 
 See [waitForElement docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForElement).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`time`|string|optional| The number of seconds to wait for the element to appear.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `time`|string|optional| The number of seconds to wait for the element to appear. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2398,13 +2398,13 @@ Attribute|Type|Use|Description
 
 See [waitForElementNotVisible docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForElementNotVisible).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`time`|string|optional| The number of seconds to wait for the element to become not visible.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `time`|string|optional| The number of seconds to wait for the element to become not visible. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2417,13 +2417,13 @@ Attribute|Type|Use|Description
 
 See [waitForElementVisible docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForElementVisible).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`time`|string|optional| The number of seconds to wait for the element to appear.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `time`|string|optional| The number of seconds to wait for the element to appear. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2435,13 +2435,13 @@ Attribute|Type|Use|Description
 
 See [waitForElementClickable docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForElementClickable).
 
-Attribute|Type|Use|Description
----|---|---|---
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`time`|string|optional| The number of seconds to wait for the element to appear.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `time`|string|optional| The number of seconds to wait for the element to appear. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2454,13 +2454,13 @@ Attribute|Type|Use|Description
 
 See [waitForJS docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForJS).
 
-Attribute|Type|Use|Description
----|---|---|---
-`function`|string|optional| The function to be run after all JavaScript finishes.
-`time`|string|optional| The number of seconds to wait for JavaScript to finish.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `function`|string|optional| The function to be run after all JavaScript finishes. |
+| `time`|string|optional| The number of seconds to wait for JavaScript to finish. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2488,11 +2488,11 @@ Therefore, this convenience function tries to wait for various specific selector
 //div[@data-role="spinner"]
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2505,12 +2505,12 @@ Attribute|Type|Use|Description
 
 Wait for Ajax, loading overlays, and `document.readyState == "complete"`.
 
-Attribute|Type|Use|Description
----|---|---|---
-`time`|string|optional| Number of seconds to wait for the page to load.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `time`|string|optional| Number of seconds to wait for the page to load. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2523,13 +2523,13 @@ Attribute|Type|Use|Description
 
 Waits up to the given `time` for a PWA Element to disappear from the screen.
 
-Attribute|Type|Use|Description
----|---|---|---
-`time`|string|optional| Number of seconds to wait for the element to disappear.
-`selector`|string|required| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `time`|string|optional| Number of seconds to wait for the element to disappear. |
+| `selector`|string|required| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2542,13 +2542,13 @@ Attribute|Type|Use|Description
 
 Waits up to the given 'time' for a PWA Element to appear on the screen.
 
-Attribute|Type|Use|Description
----|---|---|---
-`time`|string|optional| Number of seconds to wait for the selected element.
-`selector`|string|required| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `time`|string|optional| Number of seconds to wait for the selected element. |
+| `selector`|string|required| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 
@@ -2561,14 +2561,14 @@ Attribute|Type|Use|Description
 
 See [waitForText docs on codeception.com](https://codeception.com/docs/modules/WebDriver#waitForText).
 
-Attribute|Type|Use|Description
----|---|---|---
-`userInput`|string|optional| The string to wait for.
-`time`|string|optional| The number of seconds to wait for the text to appear.
-`selector`|string|optional| The selector identifying the corresponding HTML element.
-`stepKey`|string|required| A unique identifier of the action.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `userInput`|string|optional| The string to wait for. |
+| `time`|string|optional| The number of seconds to wait for the text to appear. |
+| `selector`|string|optional| The selector identifying the corresponding HTML element. |
+| `stepKey`|string|required| A unique identifier of the action. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of preceding action. |
 
 #### Example
 

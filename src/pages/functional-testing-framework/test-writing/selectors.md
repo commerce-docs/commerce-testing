@@ -168,36 +168,36 @@ Note in this instance that CSS does not have an equivalent to `::parent`, so XPa
 
 Examples of common HTML elements and the corresponding selector to find that element in the DOM:
 
-Type|HTML|Selector
----|---|---
-IDs|`<div id="idname"/>`|`#idname`
-Classes|`<div class="classname"/>`|`.classname`
-HTML Tags|`<div/>`|`div`
-HTML Tag & ID|`<div id="idname"/>`|`div#idname`
-HTML Tag & Class|`<div class="classname"/>`|`div.classname`
-ID & Class|`<div id="idname" class="classname"/>`|`#idname.classname`
-HTML Tag & ID & Class|`<div id="idname" class="classname"/>`|`div#idname.classname`
+| Type|HTML|Selector |
+| ---|---|--- |
+| IDs|`<div id="idname"/>`|`#idname` |
+| Classes|`<div class="classname"/>`|`.classname` |
+| HTML Tags|`<div/>`|`div` |
+| HTML Tag & ID|`<div id="idname"/>`|`div#idname` |
+| HTML Tag & Class|`<div class="classname"/>`|`div.classname` |
+| ID & Class|`<div id="idname" class="classname"/>`|`#idname.classname` |
+| HTML Tag & ID & Class|`<div id="idname" class="classname"/>`|`div#idname.classname` |
 
 Examples of common CSS selector operators and their purpose:
 
-Symbol|Name|Purpose|Selector
----|---|---|---
-`*`|Universal Selector|Allows you to select ALL ELEMENTS on the Page. Wildcard.|`*`
-Whitespace|Descendant Combinator|Allows you to combine 2 or more selectors.|`#idname .classname`
-`>`|Child Combinator|Allows you to select the top-level elements THAT FOLLOWS another specified element.|`#idname > .classname`
-`+`|Adjacent Sibling Combinator|Allows you to select an element THAT FOLLOWS DIRECTLY AFTER another specified element.|`#idname + .classname`
-`~`|General Sibling Combinator|Allows you to select an element THAT FOLLOWS (directly or indirectly) another specified element.|`#idname ~ .classname`
+| Symbol|Name|Purpose|Selector |
+| ---|---|---|--- |
+| `*`|Universal Selector|Allows you to select ALL ELEMENTS on the Page. Wildcard.|`*` |
+| Whitespace|Descendant Combinator|Allows you to combine 2 or more selectors.|`#idname .classname` |
+| `>`|Child Combinator|Allows you to select the top-level elements THAT FOLLOWS another specified element.|`#idname > .classname` |
+| `+`|Adjacent Sibling Combinator|Allows you to select an element THAT FOLLOWS DIRECTLY AFTER another specified element.|`#idname + .classname` |
+| `~`|General Sibling Combinator|Allows you to select an element THAT FOLLOWS (directly or indirectly) another specified element.|`#idname ~ .classname` |
 
 Examples of CSS attribute operators and their purpose:
 
-Symbol|Purpose|Example
----|---|---
-`=`|Returns all elements that CONTAIN the EXACT string in the value.|`[attribute='value']`
-`*=`|Returns all elements that CONTAINS the substring in the value.|`[attribute*='value']`
-`~=`|Returns all elements that CONTAINS the given words delimited by spaces in the value.|`[attribute~='value']`
-`$=`|Returns all elements that ENDS WITH the substring in the value.|`[attribute$='value']`
-`^=`|Returns all elements that BEGIN EXACTLY WITH the substring in the value.|`[attribute^='value']`
-`!=`|Returns all elements that either DOES NOT HAVE the given attribute or the value of the attribute is NOT EQUAL to the value.|`[attribute!='value']`
+| Symbol|Purpose|Example |
+| ---|---|--- |
+| `=`|Returns all elements that CONTAIN the EXACT string in the value.|`[attribute='value']` |
+| `*=`|Returns all elements that CONTAINS the substring in the value.|`[attribute*='value']` |
+| `~=`|Returns all elements that CONTAINS the given words delimited by spaces in the value.|`[attribute~='value']` |
+| `$=`|Returns all elements that ENDS WITH the substring in the value.|`[attribute$='value']` |
+| `^=`|Returns all elements that BEGIN EXACTLY WITH the substring in the value.|`[attribute^='value']` |
+| `!=`|Returns all elements that either DOES NOT HAVE the given attribute or the value of the attribute is NOT EQUAL to the value.|`[attribute!='value']` |
 
 ### XPath Examples
 
@@ -274,14 +274,14 @@ Attribute selectors allow you to select elements that match a specific attribute
 
 Examples:
 
-Attribute|HTML|Selector
----|---|---
-`id`|`<div id='idname'/>`|`//*[@id='idname']`
-class|`<div class='classname'/>`|`//*[@class='classname']`
-type|`<button type='submit'/>`|`//*[@type='submit']`
-value|`<input value='value'/>`|`//*[@value='value']`
-href|`<a href='https://google.com'/>`|`//*[@href='https://google.com']`
-src|`<img src='/img.png'/>`|`//*[@src='/img.png']`
+| Attribute|HTML|Selector |
+| ---|---|--- |
+| `id`|`<div id='idname'/>`|`//*[@id='idname']` |
+| class|`<div class='classname'/>`|`//*[@class='classname']` |
+| type|`<button type='submit'/>`|`//*[@type='submit']` |
+| value|`<input value='value'/>`|`//*[@value='value']` |
+| href|`<a href='https://google.com'/>`|`//*[@href='https://google.com']` |
+| src|`<img src='/img.png'/>`|`//*[@src='/img.png']` |
 
 #### `contains()` Selector
 
@@ -289,14 +289,14 @@ The `contains()` selector allows you to select an element that contains an attri
 
 Examples:
 
-Attribute|HTML|Selector
----|---|---
-`text()`|`<p>Hello World!</p>`|`[contains(text(), 'Hello')]`
-`@id`|`<div id='idname1234abcd'/>`|`[contains(@id, 'idname')]`
-`@class`|`<div class='classname1 classname2'/>`|`[contains(@class, 'classname1')]`
-`@name`|`<input name='inputname'/>`|`[contains(@name, 'name')]`
-`@value`|`<input value='value'/>`|`[contains(@value, 'value')]`
-`@href`|`<a href='https://google.com'/>`|`[contains(@href, 'google.com')]`
+| Attribute|HTML|Selector |
+| ---|---|--- |
+| `text()`|`<p>Hello World!</p>`|`[contains(text(), 'Hello')]` |
+| `@id`|`<div id='idname1234abcd'/>`|`[contains(@id, 'idname')]` |
+| `@class`|`<div class='classname1 classname2'/>`|`[contains(@class, 'classname1')]` |
+| `@name`|`<input name='inputname'/>`|`[contains(@name, 'name')]` |
+| `@value`|`<input value='value'/>`|`[contains(@value, 'value')]` |
+| `@href`|`<a href='https://google.com'/>`|`[contains(@href, 'google.com')]` |
 
 #### `text()` Selector
 
@@ -304,10 +304,10 @@ The `text()` selector allows you to select an element that contains a specific s
 
 Examples:
 
-Type|HTML|Selector
----|---|---
-Exact Match|`<p>Hello World!!</p>`|`//p[text()='Hello World!!']`
-Substring Match|`<p>Hello World!!</p>`|`//p[contains(text(), 'Hello')]`
+| Type|HTML|Selector |
+| ---|---|--- |
+| Exact Match|`<p>Hello World!!</p>`|`//p[text()='Hello World!!']` |
+| Substring Match|`<p>Hello World!!</p>`|`//p[contains(text(), 'Hello')]` |
 
 #### `starts-with()` Selector
 
@@ -315,12 +315,12 @@ The `starts-with()` selector allows you to select an element whose attribute or 
 
 Examples:
 
-Attribute|HTML|Selector
----|---|---
-`@id`|`<div id='unique_id_abcd1234'/>`|`//*[starts-with(@id, 'unique_id')]`
-`@class`|`<div class='unique_class_abcd1234'/>`|`//*[starts-with(@class, 'unique_class')]`
-`@href`|`<a href='https://www.google.com/'/>`|`//a[starts-with(@href, 'https://')]`
-`text()`|`<p>Hello World!</p>`|`//p[starts-with(text(), 'Hello ')]`
+| Attribute|HTML|Selector |
+| ---|---|--- |
+| `@id`|`<div id='unique_id_abcd1234'/>`|`//*[starts-with(@id, 'unique_id')]` |
+| `@class`|`<div class='unique_class_abcd1234'/>`|`//*[starts-with(@class, 'unique_class')]` |
+| `@href`|`<a href='https://www.google.com/'/>`|`//a[starts-with(@href, 'https://')]` |
+| `text()`|`<p>Hello World!</p>`|`//p[starts-with(text(), 'Hello ')]` |
 
 #### `ends-with()` Selector
 
@@ -328,26 +328,26 @@ The `ends-with()` selector allows you to select an element whose attribute or te
 
 Examples:
 
-Attribute|HTML|Selector
----|---|---
-`@id`|`<div id='abcd1234_unique_id'/>`|`//*[ends-with(@id, 'unique_id')]`
-`@class`|`<div class='abcd1234_unique_class'/>`|`//*[ends-with(@class, 'unique_class')]`
-`@href`|`<a href='https://www.google.com'/>`|`//a[ends-with(@href, 'google.com')]`
-`text()`|`<p>Hello World!</p>`|`//p[ends-with(text(), 'World!')]`
+| Attribute|HTML|Selector |
+| ---|---|--- |
+| `@id`|`<div id='abcd1234_unique_id'/>`|`//*[ends-with(@id, 'unique_id')]` |
+| `@class`|`<div class='abcd1234_unique_class'/>`|`//*[ends-with(@class, 'unique_class')]` |
+| `@href`|`<a href='https://www.google.com'/>`|`//a[ends-with(@href, 'google.com')]` |
+| `text()`|`<p>Hello World!</p>`|`//p[ends-with(text(), 'World!')]` |
 
 ### Translating Between CSS and XPath
 
 Most of the time it is possible to translate from CSS to XPath and vice versa. Here are some examples:
 
-Type|CSS|XPath
----|---|---
-IDs|`#idname`|`//*[@id='idname']`
-Classes|`.classname`|`//*[@class='classname']`
-HTML Tags|`div`|`//div`
-HTML Tag & ID|`div#idname`|`//div[@id='idname']`
-HTML Tag & Class|`div.classname`|`//div[@class='classname']`
-Universal|`*`|`//*`
-Descendant|`#idname .classname`|`//*[@id='idname']//*[@class='classname']`
-Child|`#idname > .classname`|`//*[@id='idname']/*[@class='classname']`
-Adjacent Sibling|`#idname + .classname`|`//*[@id='idname']/following-sibling::*[@class='classname'][1]`
-General Sibling|`#idname ~ .classname`|`//*[@id='idname']/following-sibling::*[@class='classname']`
+| Type|CSS|XPath |
+| ---|---|--- |
+| IDs|`#idname`|`//*[@id='idname']` |
+| Classes|`.classname`|`//*[@class='classname']` |
+| HTML Tags|`div`|`//div` |
+| HTML Tag & ID|`div#idname`|`//div[@id='idname']` |
+| HTML Tag & Class|`div.classname`|`//div[@class='classname']` |
+| Universal|`*`|`//*` |
+| Descendant|`#idname .classname`|`//*[@id='idname']//*[@class='classname']` |
+| Child|`#idname > .classname`|`//*[@id='idname']/*[@class='classname']` |
+| Adjacent Sibling|`#idname + .classname`|`//*[@id='idname']/following-sibling::*[@class='classname'][1]` |
+| General Sibling|`#idname ~ .classname`|`//*[@id='idname']/following-sibling::*[@class='classname']` |

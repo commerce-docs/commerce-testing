@@ -65,10 +65,10 @@ Thus, the test cases inherited from the `\Magento\TestFramework\TestCase\Abstrac
 
 Default values for the `@magentoAppIsolation` annotation:
 
-Test class ancestors                                 | Test case (class) | Test (method)
------------------------------------------------------|-------------------|--------------
-`\PHPUnit\Framework\TestCase`                        | enabled           | disabled
-`\Magento\TestFramework\TestCase\AbstractController` | enabled           | enabled
+| Test class ancestors                                 | Test case (class) | Test (method) |
+| -----------------------------------------------------|-------------------|-------------- |
+| `\PHPUnit\Framework\TestCase`                        | enabled           | disabled |
+| `\Magento\TestFramework\TestCase\AbstractController` | enabled           | enabled |
 
 `@magentoAppIsolation` cannot be disabled at the test case level.
 

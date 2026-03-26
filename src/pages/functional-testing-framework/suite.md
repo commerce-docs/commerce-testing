@@ -208,10 +208,10 @@ The root element for suites.
 
 A set of "before" and "after" preconditions, and test filters to include and exclude tests in the scope of suite.
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|required|Unique suite name identifier.
-`remove`|boolean|optional|Removing the suite during merging.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Unique suite name identifier. |
+| `remove`|boolean|optional|Removing the suite during merging. |
 
 It can contain `<before>`, `<after>`, `<include>`, and `<exclude>`.
 
@@ -266,22 +266,22 @@ The element may contain [`<test>`](#test), [`<group>`](#group), and [`<module>`]
 
 ### test
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|required|Filtering a test by its name.
-`remove`|boolean|optional|Removing the filter during merging.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Filtering a test by its name. |
+| `remove`|boolean|optional|Removing the filter during merging. |
 
 ### group
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|required|Filtering tests by the `<group>` annotation.
-`remove`|boolean|optional|Removing the filter during merging.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Filtering tests by the `<group>` annotation. |
+| `remove`|boolean|optional|Removing the filter during merging. |
 
 ### module
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|required|Filtering tests by their location in the corresponding module.
-`file`|string|optional|Filtering a specific test file in the module.
-`remove`|boolean|optional|Removing the filter during merging.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Filtering tests by their location in the corresponding module. |
+| `file`|string|optional|Filtering a specific test file in the module. |
+| `remove`|boolean|optional|Removing the filter during merging. |
