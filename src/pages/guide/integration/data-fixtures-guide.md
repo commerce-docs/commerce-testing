@@ -340,8 +340,6 @@ If you need custom fixtures, create a class that implements `DataFixtureInterfac
 
 <InlineAlert variant="info" slots="text" />
 
-For detailed guidance on creating custom data fixtures, see the official Magento DevBlog article: [How to Create Data Fixtures (Part 2/2)](https://community.magento.com/t5/Magento-DevBlog/How-to-Use-and-Create-Data-Fixture-in-Integration-and-API/ba-p/500927).
-
 ### Basic structure
 
 ```php
@@ -398,8 +396,3 @@ Refer to the following resources for more information on data fixtures.
 - [PHP Attributes](attributes/index.md) - Complete attributes reference
 - [DataFixture Attribute](attributes/data-fixture.md) - Detailed DataFixture documentation
 - [@magentoDataFixture Annotation](annotations/magento-data-fixture.md) - Legacy annotation documentation
-
-### DevBlog Articles
-
-- [How to Use and Create Data Fixture in Integration and API Functional Tests (Part 1/2)](https://community.magento.com/t5/Magento-DevBlog/How-to-Use-and-Create-Data-Fixture-in-Integration-and-API/ba-p/500568) - Official guide on using data fixtures with real examples
-- [How to Use and Create Data Fixture in Integration and API Functional Tests (Part 2/2)](https://community.magento.com/t5/Magento-DevBlog/How-to-Use-and-Create-Data-Fixture-in-Integration-and-API/ba-p/500927) - Official guide on creating custom data fixtures

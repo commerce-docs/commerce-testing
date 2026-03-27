@@ -246,11 +246,11 @@ You can also call data from the XML definition of a `data` tag directly:
 
 `<entity>` is an element that contains `<data>` elements.
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|optional|Name of the `<entity>`. Use camel case for entity names.
-`type`|string|optional|Node containing the exact name of `<entity>` type. Used later to find specific Persistence Layer Model class. `type` in `<data>` can be whatever the user wants; There are no constraints. It is important when persisting data, depending on the `type` given, as it will try to match a metadata definition with the operation being done. Example: A `myCustomer` entity with `type="customer"`, calling `<createData entity="myCustomer"/>`, will try to find a metadata entry with the following attributes: `<operation dataType="customer" type="create">`.
-`deprecated`|string|optional|Used to warn about the future deprecation of the data entity. String will appear in Allure reports and console output at runtime.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|optional|Name of the `<entity>`. Use camel case for entity names. |
+| `type`|string|optional|Node containing the exact name of `<entity>` type. Used later to find specific Persistence Layer Model class. `type` in `<data>` can be whatever the user wants; There are no constraints. It is important when persisting data, depending on the `type` given, as it will try to match a metadata definition with the operation being done. Example: A `myCustomer` entity with `type="customer"`, calling `<createData entity="myCustomer"/>`, will try to find a metadata entry with the following attributes: `<operation dataType="customer" type="create">`. |
+| `deprecated`|string|optional|Used to warn about the future deprecation of the data entity. String will appear in Allure reports and console output at runtime. |
 
 `<entity>` may contain one or more [`<data>`][], [`<var>`][], [`<required-entities>`][], or [`<array>`][] elements in any sequence.
 
@@ -258,10 +258,10 @@ Attributes|Type|Use|Description
 
 `<data>` is an element containing a data/value pair.
 
-Attributes|Type|Use|Description
----|---|---|---
-`key`|string|optional|Key attribute of data/value pair.
-`unique`|enum: `"prefix"`, `"suffix"`|optional|Add suite or test wide unique sequence as "prefix" or "suffix" to the data value if specified.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `key`|string|optional|Key attribute of data/value pair. |
+| `unique`|enum: `"prefix"`, `"suffix"`|optional|Add suite or test wide unique sequence as "prefix" or "suffix" to the data value if specified. |
 
 Example:
 
@@ -273,12 +273,12 @@ Example:
 
 `<var>` is an element that can be used to grab a key-value from another entity. For example, when creating a customer with the `<createData>` action, the server responds with the auto-incremented ID of that customer. Use `<var>` to access that ID and use it in another data entity.
 
-Attributes|Type|Use|Description
----|---|---|---
-`key`|string|optional|Key attribute of this entity to assign a value to.
-`entityType`|string|optional|Type attribute of referenced entity.
-`entityKey`|string|optional|Key attribute of the referenced entity from which to get a value.
-`unique`|--|--|_This attribute hasn't been implemented yet._
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `key`|string|optional|Key attribute of this entity to assign a value to. |
+| `entityType`|string|optional|Type attribute of referenced entity. |
+| `entityKey`|string|optional|Key attribute of the referenced entity from which to get a value. |
+| `unique`|--|--|_This attribute hasn't been implemented yet._ |
 
 Example:
 
@@ -300,9 +300,9 @@ Example: You have customer address info. To specify that relationship:
 </entity>
 ```
 
-Attributes|Type|Use|Description
----|---|---|---
-`type`|string|optional|Type attribute of `<requiredEntity>`.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `type`|string|optional|Type attribute of `<requiredEntity>`. |
 
 ### array
 
@@ -321,9 +321,9 @@ Example:
 </entity>
 ```
 
-Attributes|Type|Use|Description
----|---|---|---
-`key`|string|required|Key attribute of this entity in which to assign a value.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `key`|string|required|Key attribute of this entity in which to assign a value. |
 
 `<array>` may contain [`<item>`][] elements.
 
@@ -331,9 +331,9 @@ Attributes|Type|Use|Description
 
 `<item>` is an individual piece of data to be passed in as part of the parent `<array>` type.
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|optional|Key attribute of `<item/>` entity in which to assign a value. By default numeric key will be generated.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|optional|Key attribute of `<item/>` entity in which to assign a value. By default numeric key will be generated. |
 
 [`<array>`]: #array
 [`<data>`]: #data

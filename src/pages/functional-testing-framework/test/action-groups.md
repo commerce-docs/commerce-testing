@@ -282,20 +282,20 @@ It can be reworked into more manageable pieces, as below. These smaller steps ar
 
 The `<actionGroups>` element is a root element that contains XML configuration attributes.
 
-Attribute|Value|Description
----|---|---
-`xmlns:xsi`|`"http://www.w3.org/2001/XMLSchema-instance"`|Tells the XML parser to validate this document against a schema.
-`xsi:noNamespaceSchemaLocation`|`"urn:magento:mftf:Test/etc/actionGroupSchema.xsd"`|Relative path to the corresponding schema.
+| Attribute|Value|Description |
+| ---|---|--- |
+| `xmlns:xsi`|`"http://www.w3.org/2001/XMLSchema-instance"`|Tells the XML parser to validate this document against a schema. |
+| `xsi:noNamespaceSchemaLocation`|`"urn:magento:mftf:Test/etc/actionGroupSchema.xsd"`|Relative path to the corresponding schema. |
 
 It may contain one or more `<actionGroup>`.
 
 ### actionGroup
 
-Attribute|Type|Use|Description
----|---|---|---
-`name`|string|required|Identifier of the action group.
-`extends`|string|optional|Identifies the action group to extend.
-`deprecated`|string|optional|Used to warn about the future deprecation of the actionGroup. String will appear in Allure reports and console output at runtime.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Identifier of the action group. |
+| `extends`|string|optional|Identifies the action group to extend. |
+| `deprecated`|string|optional|Used to warn about the future deprecation of the actionGroup. String will appear in Allure reports and console output at runtime. |
 
 It may contain `<arguments>`.
 
@@ -305,11 +305,11 @@ The `<arguments>` element is a wrapper for an array of `<argument>` elements.
 
 ### argument
 
-Attribute|Type|Use|Description
----|---|---|---
-`name`|string|required|Identifier of an argument in the scope of the corresponding action group.
-`defaultValue`|string|optional|Provides a default data value.
-`type`|Possible values: `string`, `entity` (default).|optional|Defines the argument data type; Defaults to `entity`.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Identifier of an argument in the scope of the corresponding action group. |
+| `defaultValue`|string|optional|Provides a default data value. |
+| `type`|Possible values: `string`, `entity` (default).|optional|Defines the argument data type; Defaults to `entity`. |
 
 [actions]: actions.md
 [test]: index.md#test

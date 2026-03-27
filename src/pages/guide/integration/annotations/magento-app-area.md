@@ -113,4 +113,4 @@ class ClassToTest extends \PHPUnit\Framework\TestCase
 }
 ```
 
-[application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas/
+[application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas

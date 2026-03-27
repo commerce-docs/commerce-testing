@@ -48,9 +48,9 @@ Recommended use cases of the annotation types:
 
 The `<description>` element is an implementation of a [`@Description`] Allure tag; Metadata for report.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -64,9 +64,9 @@ The `<features>` element is an implementation of a [`@Features`] Allure tag.
 
 `<features>` sets a string that will be displayed as a feature within the Allure report. Tests under the same feature are grouped together in the report.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -91,9 +91,9 @@ Group values cannot collide with [suite][] names.
 
 Add `<skip>` to the test to skip it during test run.
 
-Attribute|Type|Use|Definition
----|---|---|---
-`value`|string|required|A value that is used to group tests. It should be lower case.
+| Attribute|Type|Use|Definition |
+| ---|---|---|--- |
+| `value`|string|required|A value that is used to group tests. It should be lower case. |
 
 #### Example
 
@@ -106,9 +106,9 @@ Attribute|Type|Use|Definition
 The `<return>` element is an implementation of a [`@return`] Codeception tag.
 It specifies what is returned from a test execution.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -120,9 +120,9 @@ Attribute|Type|Use
 
 The `<severity>` element is an implementation of the [`@Severity`] Allure annotation, which is used to prioritise tests by severity.
 
-Attribute|Type|Use|Acceptable values
----|---|---|---
-`value`|string|required|`MINOR`, `AVERAGE`, `MAJOR`, `CRITICAL`, `BLOCKER`
+| Attribute|Type|Use|Acceptable values |
+| ---|---|---|--- |
+| `value`|string|required|`MINOR`, `AVERAGE`, `MAJOR`, `CRITICAL`, `BLOCKER` |
 
 #### Example
 
@@ -132,13 +132,13 @@ Attribute|Type|Use|Acceptable values
 
 #### Usage guidelines
 
-Severity Level|Usage
----|---
-`BLOCKER`|If this test fails, the customer is completely blocked from purchasing a product.
-`CRITICAL`|This is a serious problem impacting conversion, or affecting the operation of the store.
-`MAJOR`|Store conversion rate is reduced owing to this issue. For example, something is broken or missing that impacts checkout frequency or cart volume.
-`AVERAGE`|A fault on the storefront that can negatively impact conversion rate (like UI errors or omissions), or problems with Admin functionality.
-`MINOR`|An application or configuration fault that has no impact on conversion rate.
+| Severity Level|Usage |
+| ---|--- |
+| `BLOCKER`|If this test fails, the customer is completely blocked from purchasing a product. |
+| `CRITICAL`|This is a serious problem impacting conversion, or affecting the operation of the store. |
+| `MAJOR`|Store conversion rate is reduced owing to this issue. For example, something is broken or missing that impacts checkout frequency or cart volume. |
+| `AVERAGE`|A fault on the storefront that can negatively impact conversion rate (like UI errors or omissions), or problems with Admin functionality. |
+| `MINOR`|An application or configuration fault that has no impact on conversion rate. |
 
 ### skip
 
@@ -149,9 +149,9 @@ It contains one or more child elements `<issueId>` to specify one or more issues
 
 This element under `<skip>` is required at least once and contains references to issues that cause the test to be skipped.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -167,9 +167,9 @@ Attribute|Type|Use
 The `<stories>` element is an implementation of a [`@Stories`] Allure tag.
 It has the same functionality as [features], within the Story report group.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -189,9 +189,9 @@ If the linkage is set up correctly in the Allure config, the test will have a hy
 
 Learn more about [setup instructions in Allure].
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -203,9 +203,9 @@ Attribute|Type|Use
 
 The `<title>` element is an implementation of [`@Title`] Allure tag; Metadata for report.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 
@@ -217,9 +217,9 @@ Attribute|Type|Use
 
 The `<useCaseId>` element is an implementation of a `@UseCaseId` custom tag. It specifies the use case ID for a test and is ignored by Allure configuration at the moment, as Allure implementation is not complete.
 
-Attribute|Type|Use
----|---|--
-`value`|string|required
+| Attribute|Type|Use |
+| ---|---|-- |
+| `value`|string|required |
 
 #### Example
 

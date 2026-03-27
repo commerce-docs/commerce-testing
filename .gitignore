@@ -5,6 +5,7 @@
 .idea
 .editorconfig
 .cursor
+.claude/
 
 # npm
 node_modules

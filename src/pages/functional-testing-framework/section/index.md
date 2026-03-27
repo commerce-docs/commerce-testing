@@ -91,26 +91,26 @@ The following is an example of a call in test:
 
 `<section>` contains the sequence of UI elements in a section of a [page][].
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|required|Unique section name identifier.
-`deprecated`|string|optional|Used to warn about the future deprecation of the section. String will appear in Allure reports and console output at runtime.
-`remove`|boolean|optional|The default is `false`. Set to `true` to remove this element during parsing.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|Unique section name identifier. |
+| `deprecated`|string|optional|Used to warn about the future deprecation of the section. String will appear in Allure reports and console output at runtime. |
+| `remove`|boolean|optional|The default is `false`. Set to `true` to remove this element during parsing. |
 
 ### element
 
 `<element>`is a UI element used in an [action][].
 
-Attributes|Type|Use|Description
----|---|---|---
-`name`|string|required|The element name; Must be alphanumeric.
-`type`|string|required|The type of the element. Possible values: `text`, `textarea`, `input`, `button`, `checkbox`, `radio`, `checkboxset`, `radioset`, `date`, `file`, `select`, `multiselect`, `wysiwyg`, `iframe`, `block`.
-`selector`|string|optional|[XPath][] or [CSS][] selector of the element.
-`locatorFunction`|string|optional|[Locator function][] declaration to be used in lieu of a selector.
-`timeout`|string|optional|The timeout after interaction with the element (in seconds). The default is _none_.
-`parameterized`|boolean|optional|Include and set to `true` if the `selector` for this element has parameters that need to be replaced for proper use. Learn more in [Parameterized selectors][].
-`deprecated`|string|optional|Used to warn about the future deprecation of the element. String will appear in Allure reports and console output at runtime.
-`remove`|boolean|optional|The default is `false`. Set to `true` to remove this element during parsing.
+| Attributes|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|required|The element name; Must be alphanumeric. |
+| `type`|string|required|The type of the element. Possible values: `text`, `textarea`, `input`, `button`, `checkbox`, `radio`, `checkboxset`, `radioset`, `date`, `file`, `select`, `multiselect`, `wysiwyg`, `iframe`, `block`. |
+| `selector`|string|optional|[XPath][] or [CSS][] selector of the element. |
+| `locatorFunction`|string|optional|[Locator function][] declaration to be used in lieu of a selector. |
+| `timeout`|string|optional|The timeout after interaction with the element (in seconds). The default is _none_. |
+| `parameterized`|boolean|optional|Include and set to `true` if the `selector` for this element has parameters that need to be replaced for proper use. Learn more in [Parameterized selectors][]. |
+| `deprecated`|string|optional|Used to warn about the future deprecation of the element. String will appear in Allure reports and console output at runtime. |
+| `remove`|boolean|optional|The default is `false`. Set to `true` to remove this element during parsing. |
 
 #### `timeout` attribute
 

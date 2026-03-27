@@ -366,5 +366,5 @@ allure serve dev/tests/acceptance/tests/_output/allure-results/
 [Set up a standalone MFTF]: #set-up-a-standalone-mftf
 [Find your version]: index.md#find-your-framework-version
 [Installation Guide docroot]: https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/docroot
-[two-factor authentication (2FA) extension]: https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/
+[two-factor authentication (2FA) extension]: two-factor-authentication.md
 [Credentials Page]: credentials.md

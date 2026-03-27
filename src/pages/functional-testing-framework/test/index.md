@@ -69,14 +69,14 @@ There are several XML elements that are used within `<test>` in the MFTF.
 
 `<test>` is a set of steps, including [actions], [assertions][assertion] and Action Group calls. It is a sequence of test steps that define test flow within a test method.
 
-Attribute|Type|Use|Description
----|---|---|---
-`name`|string|optional|The test identifier.
-`remove`|boolean|optional|Set `true` to remove the test when merging.
-`insertBefore`|string|optional| This option is used for [merging]. It enables you to add all test actions contained in the original test into a test with the same name BEFORE the test step with `stepKey` that you assigned in `insertBefore`.
-`insertAfter`|string|optional| Set `stepKey` of the test step after which you want to insert the test when [merging].
-`deprecated`|string|optional|Used to warn about the future deprecation of the test. String will appear in Allure reports and console output at runtime.
-`extends`|string|optional|A name of the parent test to [extend].
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|optional|The test identifier. |
+| `remove`|boolean|optional|Set `true` to remove the test when merging. |
+| `insertBefore`|string|optional| This option is used for [merging]. It enables you to add all test actions contained in the original test into a test with the same name BEFORE the test step with `stepKey` that you assigned in `insertBefore`. |
+| `insertAfter`|string|optional| Set `stepKey` of the test step after which you want to insert the test when [merging]. |
+| `deprecated`|string|optional|Used to warn about the future deprecation of the test. String will appear in Allure reports and console output at runtime. |
+| `extends`|string|optional|A name of the parent test to [extend]. |
 
 `<test>` may also contain [`<annotations>`](#annotations), [`<before>`](#before), [`<after>`](#after), any [action][actions], or [`<actionGroup>`](#actiongroup).
 
@@ -109,12 +109,12 @@ Allure annotations provide metadata for reporting.
 
 `<actionGroup>` calls a corresponding [action group].
 
-Attribute|Type|Use|Description
----|---|---|---
-`ref`|string|required|References the required action group by its `name`.
-`stepKey`|string|required| Identifies the element within `<test>`.
-`before`|string|optional| `<stepKey>` of an action or action group that must be executed next while merging.
-`after`|string|optional| `<stepKey>` of an action or action group that must be executed one step before the current one while merging.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `ref`|string|required|References the required action group by its `name`. |
+| `stepKey`|string|required| Identifies the element within `<test>`. |
+| `before`|string|optional| `<stepKey>` of an action or action group that must be executed next while merging. |
+| `after`|string|optional| `<stepKey>` of an action or action group that must be executed one step before the current one while merging. |
 
 `<actionGroup>` may contain [`<argument>`](#argument).
 
@@ -122,10 +122,10 @@ Attribute|Type|Use|Description
 
 `<argument>` sets an argument that is used in the parent [`<actionGroup>`](#actiongroup).
 
-Attribute|Type|Use|Description
----|---|---|---
-`name`|string|optional| Name of the argument.
-`value`|string|optional| Value of the argument.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `name`|string|optional| Name of the argument. |
+| `value`|string|optional| Value of the argument. |
 
 See [Action groups][action group] for more information.
 

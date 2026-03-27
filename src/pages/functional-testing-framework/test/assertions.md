@@ -68,11 +68,11 @@ Example:
 </assertElementContainsAttribute>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertArrayIsSorted
 
@@ -86,12 +86,12 @@ Example:
 </assertArrayIsSorted>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`sortOrder`|Possible values: `asc`, `desc`|required| A sort order to assert on array values.
-`stepKey`|string|required| A unique identifier of the test step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `sortOrder`|Possible values: `asc`, `desc`|required| A sort order to assert on array values. |
+| `stepKey`|string|required| A unique identifier of the test step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 It contains an `<array>` child element that specifies an array to be asserted for proper sorting.
 It must be in typical array format like `[1,2,3,4,5]` or `[alpha, brontosaurus, zebra]`.
@@ -100,34 +100,34 @@ It must be in typical array format like `[1,2,3,4,5]` or `[alpha, brontosaurus, 
 
 See [assertArrayHasKey docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertArrayHasKey)
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertArrayNotHasKey
 
 See [assertArrayNotHasKey docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertArrayNotHasKey).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertContains
 
 See [assertContains docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertContains).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertStringContainsString
 
@@ -142,12 +142,12 @@ Example:
 </assertStringContainsString>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text describing the cause of the failure.
-`stepKey`|string|required| Unique identifier of the text step.
-`before`|string|optional| `stepKey` of the action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text describing the cause of the failure. |
+| `stepKey`|string|required| Unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of the action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertStringContainsStringIgnoringCase
 
@@ -162,23 +162,23 @@ Example:
 </assertStringContainsStringIgnoringCase>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Message describing the cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of the action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Message describing the cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of the action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertCount
 
 See [assertCount docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertCount).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertEmpty
 
@@ -192,12 +192,12 @@ Example:
 </assertEmpty>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertEquals
 
@@ -212,79 +212,79 @@ Example:
 </assertEquals>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertEqualsWithDelta
 
 See [assertEqualsWithDelta docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertEqualsWithDelta).
 
-Attribute|Type|Use|Description
----|---|---|---
-`delta`|string|optional| -
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `delta`|string|optional| - |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertEqualsCanonicalizing
 
 See [assertEqualsCanonicalizing docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertEqualsCanonicalizing).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertEqualsIgnoringCase
 
 See [assertEqualsIgnoringCase docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertEqualsIgnoringCase).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertFalse
 
 See [assertFalse docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertFalse).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertFileExists
 
 See [assertFileExists docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertFileExists).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertFileNotExists
 
 See [assertFileNotExists docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertFileNotExists).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertGreaterOrEquals
 
@@ -299,12 +299,12 @@ Example:
 </assertGreaterOrEquals>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertGreaterThan
 
@@ -319,12 +319,12 @@ Example:
 </assertGreaterThan>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertGreaterThanOrEqual
 
@@ -339,34 +339,34 @@ Example:
 </assertGreaterThanOrEqual>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertInstanceOf
 
 See [assertInstanceOf docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertInstanceOf).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertIsEmpty
 
 See [assertIsEmpty docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertIsEmpty).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertLessOrEquals
 
@@ -381,12 +381,12 @@ Example:
 </assertLessOrEquals>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertLessThan
 
@@ -401,12 +401,12 @@ Example:
 </assertLessThan>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertLessThanOrEqual
 
@@ -421,12 +421,12 @@ Example:
 </assertLessThanOrEqual>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotContains
 
@@ -441,12 +441,12 @@ Example:
 </assertNotContains>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertStringNotContainsString
 
@@ -461,12 +461,12 @@ Example:
 </assertStringNotContainsString>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertStringContainsStringIgnoringCase
 
@@ -481,12 +481,12 @@ Example:
 </assertStringContainsStringIgnoringCase>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotEmpty
 
@@ -500,12 +500,12 @@ Example:
 </assertNotEmpty>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotEquals
 
@@ -520,68 +520,68 @@ Example:
 </assertNotEquals>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotEqualsWithDelta
 
 See [assertNotEqualsWithDelta docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNotEqualsWithDelta).
 
-Attribute|Type|Use|Description
----|---|---|---
-`delta`|string|optional| -
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `delta`|string|optional| - |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotEqualsCanonicalizing
 
 See [assertNotEqualsCanonicalizing docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNotEqualsCanonicalizing).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotEqualsIgnoringCase
 
 See [assertNotEqualsIgnoringCase docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNotEqualsIgnoringCase).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotInstanceOf
 
 See [assertNotInstanceOf docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNotInstanceOf).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotNull
 
 See [assertNotNull docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNotNull).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotRegExp
 
@@ -596,34 +596,34 @@ Example:
 </assertNotRegExp>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNotSame
 
 See [assertNotSame docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNotSame).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertNull
 
 See [assertNull docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertNull).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertRegExp
 
@@ -638,74 +638,74 @@ Example:
 </assertRegExp>
 ```
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertSame
 
 See [assertSame docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertSame).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertStringStartsNotWith
 
 See [assertStringStartsNotWith docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertStringStartsNotWith).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertStringStartsWith
 
 See [assertStringStartsWith docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertStringStartsWith).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### assertTrue
 
 See [assertTrue docs on codeception.com](https://codeception.com/docs/modules/Asserts#assertTrue).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|optional|Text of informational message about a cause of failure.
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|optional|Text of informational message about a cause of failure. |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### expectException
 
 See [expectException docs on codeception.com](https://codeception.com/docs/modules/Asserts#expectException).
 
-Attribute|Type|Use|Description
----|---|---|---
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |
 
 ### fail
 
 See [fail docs on codeception.com](https://codeception.com/docs/modules/Asserts#fail).
 
-Attribute|Type|Use|Description
----|---|---|---
-`message`|string|required| -
-`stepKey`|string|required| A unique identifier of the text step.
-`before`|string|optional| `stepKey` of action that must be executed next.
-`after`|string|optional| `stepKey` of the preceding action.
+| Attribute|Type|Use|Description |
+| ---|---|---|--- |
+| `message`|string|required| - |
+| `stepKey`|string|required| A unique identifier of the text step. |
+| `before`|string|optional| `stepKey` of action that must be executed next. |
+| `after`|string|optional| `stepKey` of the preceding action. |

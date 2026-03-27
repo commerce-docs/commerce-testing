@@ -111,10 +111,10 @@ A fixture rollback must be of the same format as the corresponding fixture, a sc
 
 Examples:
 
-Fixture/Rollback | Fixture name                                         | Rollback name
------------------|------------------------------------------------------|-------------------------------------------------------------
-Script           | `Magento/Catalog/_files/categories.php`              | `Magento/Catalog/_files/categories_rollback.php`
-Method           | `\Magento\Catalog\Model\ProductTest::prepareProduct` | `\Magento\Catalog\Model\ProductTest::prepareProductRollback`
+| Fixture/Rollback | Fixture name                                         | Rollback name |
+| -----------------|------------------------------------------------------|------------------------------------------------------------- |
+| Script           | `Magento/Catalog/_files/categories.php`              | `Magento/Catalog/_files/categories_rollback.php` |
+| Method           | `\Magento\Catalog\Model\ProductTest::prepareProduct` | `\Magento\Catalog\Model\ProductTest::prepareProductRollback` |
 
 ### Restrictions
 
